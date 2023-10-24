@@ -1,0 +1,111 @@
+<!DOCTYPE html> <!-- 告訴瀏覽器這是HTML5的文檔類型聲明 -->
+
+<html>
+    <link rel="stylesheet" href="lab4_1.js">
+<head>
+    <style>
+        th {
+            background-color: #dfbbe1;
+        }
+
+        table {
+            background-color: #8ba9d8;
+            text-align: center;
+        }
+
+        table,
+        th,
+        td {
+            border: solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="myTable">
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table><br>
+    <p>width</p>
+    <button onclick="change_Width_200()">200px</button>
+    <button onclick="change_Width_500()">500px</button>
+    <p>border & spacing width</p>
+    <button onclick="change_border_1()">1px</button>
+    <button onclick="change_border_10()">10px</button>
+    <button onclick="change_border_20()">20px</button>
+    <p>color</p>
+    <button onclick="change_color_1()" style="background-color: beige;width: 50px;height: 50px;"></button>
+    <button onclick="change_color_2()"style="background-color: #c29250;width: 50px;height: 50px;"></button>
+    <button onclick="change_color_3()"style="background-color: red;width: 50px;height: 50px;"></button>
+    <button onclick="change_color_4()"style="background-color: purple;width: 50px;height: 50px;"></button>
+    
+    <script src="lab4_1.js"></script>
+    <script> 
+        // function change_Width_200() {
+        //     const table = document.getElementById("myTable");
+        //     table.style.width = "200px"
+        // }
+
+        // function change_Width_500() {
+        //     const table = document.getElementById("myTable");
+        //     table.style.width = "500px"
+        // }
+
+        // function change_border_1() {
+        //     const table = document.getElementById("myTable");
+        //     table.style.borderWidth = "1px"
+        //     const cells = document.querySelectorAll("#myTable td, #myTable th");
+        //     cells.forEach(cell => {
+        //         cell.style.borderWidth = "1px";
+        //     });
+
+        // }
+        // function change_border_10() {
+        //     const table = document.getElementById("myTable");
+        //     table.style.borderWidth = "10px"
+        //     const cells = document.querySelectorAll("#myTable td, #myTable th");
+        //     cells.forEach(cell => {
+        //         cell.style.borderWidth = "10px";
+        //     });
+        // }
+        // function change_border_20() {
+        //     const table = document.getElementById("myTable");
+        //     table.style.borderWidth = "20px"
+        //     const cells = document.querySelectorAll("#myTable td, #myTable th");
+        //     cells.forEach(cell => {
+        //         cell.style.borderWidth = "20px";
+        //     });
+        // }
+        // function change_color_1() {
+        //     const table = document.getElementById("myTable");
+        //     table.style.backgroundColor = "beige "
+        // }
+        // function change_color_2() {
+        //     const table = document.getElementById("myTable");
+        //     table.style.backgroundColor = "#c29250 "
+        // }
+        // function change_color_3() {
+        //     const table = document.getElementById("myTable");
+        //     table.style.backgroundColor = "red "
+        // }
+        // function change_color_4() {
+        //     const table = document.getElementById("myTable");
+        //     table.style.backgroundColor = "purple "
+        // }
+    </script>
+</body>
+
+</html>
